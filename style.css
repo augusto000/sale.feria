@@ -1,0 +1,79 @@
+:root{
+    --bs-body-font-family:'Raleway', sans-serif;
+    --bs-bg-opacity:5;            
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row {
+    margin: 0.5rem;;
+}
+.card-group{
+    margin-left: 2.9rem;
+    width: 100%;
+    column-gap: 0.5rem;
+}
+.col-10{
+    flex: 0 0 auto;
+    width: 80%;
+    margin-left: 1.5rem;
+}
+.col-2{
+    flex: 1 0 150px;
+}
+.form-label{
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+.form-control{
+    font-size: 0.7rem;
+}
+.tamanio-select{
+    font-size: 0.7rem;
+    height: 1.6rem;
+    width: 100%;
+}
+.sale-feria{
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-left: 1rem;
+}
+.tamanio-select{
+    font-size: 0.7rem;
+}
+
+.bi{
+    color: fuchsia;
+    margin: 0;
+    padding: 0;
+}
+.copy-reserved{
+    margin-left:20.5rem;    
+    font-size: 0.8rem;
+}
+.caja-iconos{
+    display: flex;
+    flex-direction: row;
+    margin-left: 43.5rem;
+}
+.facebook{
+    margin-left:.5rem;
+    color: blue;
+}
+.ancho-footer{
+    display:flex;
+    width: 100%;
+}
+.ancho-foto{
+    height: 20rem;
+    margin-left: -2rem;
+}
+.yb{
+    margin-left: 0.5rem;
+}
+.linked-in{
+    margin-right:0.5rem ;
+    color: blue;
+}
