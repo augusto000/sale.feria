@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 .row {
-    margin: 0.5rem;;
+    margin: 0;;
 }
 .bg-secundary{
     outline: 1px solid red;
@@ -28,7 +28,7 @@
 .col-10{
     flex: 0 0 auto;
     width: 80%;
-    margin-left: 1.5rem;
+    margin-left: 0;
 }
 .col-2{
     flex: 1 0 150px;
@@ -71,9 +71,9 @@
     margin-left:.5rem;
     color: blue;
 }
-.ancho-footer{
-    display:flex;
-    width: 100%;
+.foot{
+
+
 }
 .ancho-foto{
     height: 18rem;
