@@ -10,6 +10,10 @@
 .row {
     margin: 0.5rem;;
 }
+.bg-secundary{
+    outline: 1px solid red;
+    margin: auto;
+}
 .container-sm{
     margin-left: 0.5rem;
 }
@@ -17,6 +21,9 @@
     margin-left: 2.9rem;
     width: 100%;
     column-gap: 0.5rem;
+}
+.col-10 img{
+    margin-left:0rem;
 }
 .col-10{
     flex: 0 0 auto;
@@ -46,7 +53,6 @@
 .tamanio-select{
     font-size: 0.7rem;
 }
-
 .bi{
     color: fuchsia;
     margin: 0;
@@ -70,8 +76,8 @@
     width: 100%;
 }
 .ancho-foto{
-    height: 20rem;
-    margin-left: -2rem;
+    height: 18rem;
+    margin: 0;
 }
 .yb{
     margin-left: 0.5rem;
