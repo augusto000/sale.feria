@@ -14,6 +14,9 @@
     outline: 1px solid red;
     margin: auto;
 }
+.container-fluid{
+    width: 104%;
+}
 .container-sm{
     margin-left: 0.5rem;
 }
@@ -58,6 +61,7 @@
     margin: 0;
     padding: 0;
 }
+
 .copy-reserved{
     margin-left:20.5rem;    
     font-size: 0.8rem;
@@ -72,8 +76,13 @@
     color: blue;
 }
 .foot{
-
-
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100%;
+}
+.texto-autor{
+    margin-left: 2rem;
 }
 .ancho-foto{
     height: 18rem;
