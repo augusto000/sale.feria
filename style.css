@@ -10,6 +10,17 @@
 .row {
     margin: 0;;
 }
+.columna2-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+    justify-content: flex-end;
+    min-height: 100%;
+    font-size: 0.7rem;
+    width:25rem;
+    margin-left: 0rem;
+    color: aliceblue;     
+}
 .bg-secundary{
     outline: 1px solid red;
     margin: auto;
@@ -61,7 +72,6 @@
     margin: 0;
     padding: 0;
 }
-
 .copy-reserved{
     margin-left:20.5rem;    
     font-size: 0.8rem;
@@ -70,6 +80,8 @@
     display: flex;
     flex-direction: row;
     margin-left: 43.5rem;
+    outline: 1px solid white;
+    justify-content: start;
 }
 .facebook{
     margin-left:.5rem;
@@ -88,6 +100,12 @@ width: 100%;
     height: 18rem;
     margin: 0;
 }
+.columna2-{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-left:auto;
+}
 
 .colorr:hover{
     color:yellow ;
@@ -98,4 +116,14 @@ width: 100%;
 .linked-in{
     margin-right:0.5rem ;
     color: blue;
+}
+
+@media (min-width:320px){
+    .columna2-footer{
+        margin-left: -8.6rem;
+        
+    }
+    .contenedor-col1 {
+       text-align: center;    
+    }
 }
