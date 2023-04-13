@@ -120,10 +120,21 @@ width: 100%;
 
 @media (min-width:320px){
     .columna2-footer{
-        margin-left: -8.6rem;
+        margin:1.4rem -13.7rem;
+        font-size: .5rem;                  
         
     }
     .contenedor-col1 {
-       text-align: center;    
+             text-align: center;    
     }
-}
+    .yb{
+        margin-left: 0.2rem;
+    }
+    .bi-instagram{
+        margin-left: 1.6rem;
+        
+    }
+    .bi-youtube{
+        margin-left: 0.2rem;
+        margin-bottom: 1.rem;
+    }
