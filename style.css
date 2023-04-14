@@ -164,7 +164,7 @@ width: 100%;
     }
     .col-2 {
         flex-basis: 100%;
-        width: 17.666667%;
+        width: 100%;
     }
     .max-valor{
         width: 2.5rem;
