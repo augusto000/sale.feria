@@ -45,7 +45,7 @@
     margin-left: 0;
 }
 .col-2{
-    flex: 100%;
+    flex: 1;    
 }
 .form-label{
     font-size: 0.8rem;
@@ -160,8 +160,8 @@ width: 100%;
 @media (min-width:320px){
     .col-2 {
     flex-basis: 100%;
-    flex:100%;        
-   }
+    width: 17.666667%;
+    }
     .max-valor{
         width: 2.5rem;
         margin-top: -5rem ;
