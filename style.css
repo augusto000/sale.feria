@@ -159,9 +159,9 @@ width: 100%;
 }
 @media (min-width:320px){
     .col-2 {
-    outline:5px solid white;
+    outline:1px solid white;
     flex-basis: 100%;
-    width: 17.666667%;
+    width: 100%;
     }
     .max-valor{
         width: 2.5rem;
