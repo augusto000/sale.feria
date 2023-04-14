@@ -160,7 +160,7 @@ width: 100%;
 @media (min-width:320px){
     .col-2 {
     flex-basis: 100%;
-    width: 17.666667%;
+    flex:100%;        
    }
     .max-valor{
         width: 2.5rem;
