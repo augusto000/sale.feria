@@ -45,7 +45,7 @@
     margin-left: 0;
 }
 .col-2{
-    flex: 1;    
+    flex: 100%;
 }
 .form-label{
     font-size: 0.8rem;
@@ -158,10 +158,13 @@ width: 100%;
     color: blue;
 }
 @media (min-width:320px){
+    .mb-3{
+        flex-basis: 100%;
+        flex: 100%;
+    }
     .col-2 {
-    outline:1px solid white;
-    flex-basis: 100%;
-    width: 100%;
+        flex-basis: 100%;
+        width: 17.666667%;
     }
     .max-valor{
         width: 2.5rem;
@@ -171,7 +174,7 @@ width: 100%;
         text-align: center;
     }
     .input-en-min-valor input{
-        width: 15rem;
+        width: 100%;
         border-radius: .3rem;
         text-align: center;
         position: absolute;
@@ -186,7 +189,7 @@ width: 100%;
         top: 18.5rem;
     }
     div .min-valor{
-        width: 1.5rem;
+        width: 100%;
         margin-top: -.5rem ;
         font-size: 0.8rem;
         font-weight: bolder;
@@ -236,3 +239,5 @@ width: 100%;
         margin-bottom: 1.rem;
     }
 }
+
+
