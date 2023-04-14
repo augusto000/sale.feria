@@ -45,7 +45,7 @@
     margin-left: 0;
 }
 .col-2{
-    flex: 1 0 150px;
+    flex: 100%;
 }
 .form-label{
     font-size: 0.8rem;
